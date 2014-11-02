@@ -1,0 +1,25 @@
+{
+  "name": "labbing",
+  "version": "1.0.0",
+  "description": "messing with hapi and lab tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/lab/bin/lab -t 100"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/docwily/labbing.git"
+  },
+  "author": "Jamal Blackwell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/docwily/labbing/issues"
+  },
+  "homepage": "https://github.com/docwily/labbing",
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "hapi": "^7.1.1",
+    "joi": "^4.7.0",
+    "lab": "^5.0.1"
+  }
+}
